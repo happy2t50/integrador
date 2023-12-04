@@ -4,6 +4,7 @@ const cors = require('cors');
 const path = require('path');
 const fs = require('fs');
 
+
 const app = express();
 
 // Configuraciones
@@ -52,6 +53,7 @@ require("./app/routes/tutorial.routes")(app);
 require("./app/routes/Productos.routes")(app);
 require("./app/routes/Menu.routes")(app);
 require("./app/routes/Ventas.routes")(app);
+
 
 const PORT = process.env.PORT || 8082;
 
